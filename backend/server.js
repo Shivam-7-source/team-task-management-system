@@ -22,7 +22,7 @@ const app = express();
 // Middleware
 app.use(
   cors({
-    origin: "https://team-task-management-system-1-bnjv.onrender.com",
+    origin: "https://team-task-management-system-544.onrender.com",
     methods: ["GET", "POST", "PUT", "DELETE"],
     credentials: true,
   })
