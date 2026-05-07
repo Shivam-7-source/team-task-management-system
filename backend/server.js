@@ -20,7 +20,14 @@ connectDB();
 const app = express();
 
 // Middleware
-app.use(cors());
+app.use(
+  cors({
+    origin: "https://team-task-management-system-1-bnjv.onrender.com",
+    methods: ["GET", "POST", "PUT", "DELETE"],
+    credentials: true,
+  })
+);
+
 app.use(express.json());
 
 // Test Route
