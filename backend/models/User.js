@@ -27,13 +27,6 @@ const userSchema = new mongoose.Schema(
     // TEAM BASED ORGANIZATION
     team: {
       type: String,
-      enum: [
-        "UI Team",
-        "Backend Team",
-        "AI Team",
-        "HR Team",
-        "Marketing Team",
-      ],
       default: "UI Team",
     },
   },
