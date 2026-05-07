@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: `${import.meta.env.VITE_API_URL}/api`,
+  baseURL: "https://team-task-management-system-5423.onrender.com/api",
 });
 
 // Add token automatically
